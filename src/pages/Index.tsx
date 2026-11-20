@@ -345,7 +345,7 @@ export default function Index() {
                 <div className="timeline-entry__marker"><GraduationCap size={18} /></div>
                 <div className="timeline-entry__content">
                   <div className="timeline-entry__meta">POSTGRADUATE STUDY</div>
-                  <h3>Post Graduate Diploma</h3>
+                  <h3>PG Diploma in Artificial Intelligence (PG-DAI)</h3>
                   <strong>Centre for Development of Advanced Computing (C-DAC), Noida</strong>
                   <p>Postgraduate training in advanced computing and applied technical practice.</p>
                 </div>
