@@ -64,6 +64,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: config.author,
+    url: config.site,
+    email: config.email,
+    jobTitle: "AI & Machine Learning Engineer",
+    worksFor: {
+      "@type": "Organization",
+      name: "Mantra Softech India Pvt Ltd",
+    },
+    sameAs: [config.social.github, config.social.linkedin],
+  };
+
   return (
     <html
       lang="en"
@@ -75,6 +89,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         {process.env.UMAMI_SITE_ID && (
           <Script
             src={UMAMI_SRC}

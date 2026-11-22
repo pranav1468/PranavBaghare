@@ -5,6 +5,8 @@
 **An interactive 3D developer portfolio built with Next.js, React Three Fiber, Three.js, GSAP, and Framer Motion.**  
 Explore an interactive 3D Neural Processor Core, press or click any of the 16 compute modules to inspect my AI/ML & Computer Vision stack, and browse real-world projects.
 
+### [Live Demo -> pranav-baghare.vercel.app](https://pranav-baghare.vercel.app/)
+
 </div>
 
 ---

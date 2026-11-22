@@ -23,7 +23,7 @@ const config = {
   ],
   author: "Pranav Baghare",
   email: "pranavbaghare@gmail.com",
-  site: "https://pranav1468.github.io",
+  site: "https://pranav-baghare.vercel.app",
 
   // for github stars button
   githubUsername: "pranav1468",
