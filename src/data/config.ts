@@ -27,7 +27,7 @@ const config = {
 
   // for github stars button
   githubUsername: "pranav1468",
-  githubRepo: "pranav1468.github.io",
+  githubRepo: "PranavBaghare",
 
   get ogImg() {
     return "/assets/models/arctic_neural_processor_core_v2.png";
